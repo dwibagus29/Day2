@@ -1,0 +1,22 @@
+form {
+  width: 350px;
+  margin: 70px auto;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}

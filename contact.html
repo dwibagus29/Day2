@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="">
+            <div>
+                <label for="inputName">Nama</label>
+                <input type="text" id="inputName" required/>
+            </div>
+            <div>
+                <label for="inputEmail">Email</label>
+                <input type="text" id="inputEmail" />
+
+            </div>
+            <div>
+                <label for="inputPhone">Phone Number</label>
+                <input type="number" id="inputPhone"/>
+
+            </div>
+            <div>
+                <label for="inputSubject">Subject</label>
+                <select id="inputSubject">
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Fullstack</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="inputMessage">Message</label>
+                <textarea cols="20" rows="5" style="resize: none;"
+                    id="inputMessage"></textarea>
+
+            </div>
+            <div>
+                <button>Submit</button>
+                <button type="reset">Rest</button>
+            </div>
+        </form>
+    </body>
+</html>
